@@ -4,19 +4,19 @@
 const nuevaString = 'Jonathan';
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = null;
+const nuevoNum = 34;
 
 // Crea una variable booleana:
-const nuevoBool = null;
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - null === 5;
+const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * null === 40 ;
+const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === null;
+const nuevoModulo = 21 % 5 === 4;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -32,6 +32,9 @@ function devolverString(str) {
 }
 
 function suma(x, y) {
+
+  return x + y;
+
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
@@ -39,24 +42,36 @@ function suma(x, y) {
 }
 
 function resta(x, y) {
+
+  return x - y;
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
   
 }
 
 function multiplica(x, y) {
+
+  return x * y;
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
   
 }
 
 function divide(x, y) {
+
+  return x / y ;
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
   
 }
 
 function sonIguales(x, y) {
+
+  if (x == y){
+    return true;
+  }else {
+    return false;
+  }
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
@@ -64,6 +79,13 @@ function sonIguales(x, y) {
 }
 
 function tienenMismaLongitud(str1, str2) {
+
+  if ( str1.length == str2.length){
+    return true;
+  } else {
+    return false;
+  }
+
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
@@ -71,6 +93,12 @@ function tienenMismaLongitud(str1, str2) {
 }
 
 function menosQueNoventa(num) {
+
+  if (num < 90 ){
+    return true;
+  }else{
+    return false;
+  }
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
@@ -78,6 +106,12 @@ function menosQueNoventa(num) {
 }
 
 function mayorQueCincuenta(num) {
+
+  if (num > 50 ){
+    return true;
+  }else{
+    return false;
+  }
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
