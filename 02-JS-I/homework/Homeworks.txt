@@ -1,0 +1,33 @@
+Definicion de conceptos:
+
+ 1 Variables:
+ Se puede definir como un espacio en memoria que podemos asignarle un nombre y un valor; para iniciar una variable
+ podemos utilizar las palabras reservadas: var,let o const, y para asignarle un valor debemos utilizar el simbolo "="
+ Si utilizamos las palabras reservadas var o let , nuestra variable podra adquirir tantos valores como asignaciones
+ necesitemos.
+ Si utilizamos la palabra reservada const, nuestra variable adquirira una asginacion constante por tal no podremos cambiar
+ mas adelante el valor que le habremos asignado inicialmente.
+ 
+2 Strings:
+Se puede definir con un tipo de valor que puede adquirir una variable, este tipo es definido como una cadena de texto,
+por ejemplo: var texto = "Estoy aprendiendo a programar con Henrry"; 
+Donde texto seria una variable de tipo String.
+
+3 Funciones:
+Se puede definir como una funcion a un bloque de codigo que nos resuelve o aporta una soluccion que podremos reutilizar
+las veces que sean necesarias sin que tengamos que repetir el bloque de codigo que forma la funcion.
+Por ejemplo:
+function SUMA(a,b){
+   return a + b;
+}
+Entonces, la funcion SUMA nos resolvera la suma de dos valores en este caso a y b, donde a y b vendrian a ser los argumentos
+de la funcion, que pasaran a ser resueltos en la siguiente linea de codigo, la palabra reservada return nos permite devolver
+la solucion.
+
+ 4 Declaraciones `if`:
+Este tipo de declaraciones nos permiten pasar por argumento una condicion, la misma que si resulta verdadera se resulve
+la linea de codigo siguiente y mientras la condicion resulte falso se ejecuta otra, en pocas palabras estas declaraciones
+pueden controlar el flujo de un bloque de codigo.
+
+ 5 Valores booleanos (`true`, `false`):
+Se puede definir como un tipo de valor logico que puede adquirir una variable o que nos permite comparar una condicion.
